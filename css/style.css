@@ -1,0 +1,776 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+}
+
+.entete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+    margin-left: 5%;
+    width : 15%; 
+    height : 20%;
+}
+h1{
+    font-size: 130px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.squelette{
+    margin-right: 5%;
+    width: 12%;
+}
+
+/*Menu de navigation*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 247, 251);
+    font-size: 40px;
+}
+.menu:hover{
+    background-color: rgb(167, 226, 255);
+}
+.accueil, .acheter, .plus, .assistance{
+    display: flex;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(0, 0, 0), lightgray);
+    padding: 10px 35px;
+    font-weight: bold; 
+    text-align: center;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    cursor: pointer;
+    color: white;
+}
+.accueil:hover{
+    color:aquamarine;
+}
+.acheter:hover{
+    color: aquamarine;
+}
+.plus:hover{
+    color: aquamarine;
+}
+.assistance:hover{
+    color: aquamarine;
+}
+
+main{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+/* Partie I */
+.partie1{
+    background-color: rgb(240, 247, 251);
+}
+.paragraphe1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.p1{
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(167, 226, 255);   
+    margin: 3%;
+    width: 35%;
+}
+.p1-1{
+    display: flex;
+    text-align: justify;
+    margin: 5%;
+}
+.bose1{
+    margin: 10%;
+    margin-right: 0%;
+    width: 80%;
+}
+
+/* Partie II */
+.partie2{
+    background-color: black;
+}
+.paragraphe2{
+    display: flex;
+    align-items: center;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: rgb(167, 226, 255);   
+    margin: 5%;
+    margin-left: 15%;
+    width: 70%;
+}
+.bose2{
+    margin: 5%;
+    width: 70%;
+    border-radius: 25px;
+    border: 5px inset rgb(167, 226, 255);
+}
+ul{
+    margin: 5%;
+    margin-top: 0%;
+}
+
+/* Partie III */
+.partie3{
+    background-color:rgb(240, 247, 251) ;
+}
+.titre3{
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+.paragraphe3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bose3{
+    width: 160%;
+    margin-left:130px;
+}
+.p3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p3-1{
+    display: flex;
+    align-items: center;
+}
+.p3-2{
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(167, 226, 255);   
+    margin: 2%;
+    margin-left: 20%;
+    width: 40%;
+}
+.p3-2-1{
+    display: flex;
+    text-align: justify;
+    margin: 5%;
+}
+
+
+/* Partie IV */
+.partie4{
+    background-color:rgb(0, 0, 0) ;
+}
+.titre4{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0%;
+}
+.paragraphe4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.p4{
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(167, 226, 255);   
+    margin: 2%;
+    margin-right: 7%;
+    margin-left: 5%;
+    width: 90%;
+}
+.p4-1{
+    display: flex;
+    text-align: justify;
+    margin: 5%;
+}
+.bose4{
+    width: 70%;
+    margin-right: 200px;
+}
+
+/* Pied de page */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+/*Partie V*/
+.partie5{
+    background-color: rgb(240, 247, 251);
+}
+.titre5{
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+.paragraphe5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 10%;
+    font-size: 30px;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.adresse, .mail, .telephone{
+    display: flex;
+    background-color: rgb(167, 226, 255);   
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    -webkit-border-radius:100px;
+    -moz-border-radius :100px;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+}
+.adresse:hover{
+    color: aquamarine;
+    background-color: black;
+}
+.mail:hover{
+    color: aquamarine;
+    background-color: black;
+}
+.telephone:hover{
+    color: aquamarine;
+    background-color: black;
+}
+
+/*Partie VI*/
+.titre6{
+    color: white;
+}
+.partie6{
+    display: flex;
+    justify-content: center;
+}
+.facebook:hover{
+    filter:brightness(100);
+}
+.instagram:hover{
+    filter: brightness(100);
+}
+.twitter:hover{
+    filter: brightness(100);
+}
+.youtube:hover{
+    filter: brightness(100);
+}
+
+/* Responsive */
+
+@media screen and (max-width:1405px)
+{ 
+    h1{
+        font-size: 90px;
+    }
+    .menu{
+        font-size: 30px;
+    }
+    .p1{
+        font-size: 25px;
+        width: 70%;
+        margin-left: 0%;
+    }
+    .bose1{
+        width: 80%;
+    }
+    .p2{
+        font-size: 25px;
+        margin-left: 10%;
+        width: 150%;
+    }
+    .bose2{
+        margin-left: 10%;
+        width: 70%;
+    }
+    .titre3{
+        font-size: 45px;
+    }
+    .bose3{
+        width: 130%;
+    }
+    .p3-2{
+        font-size: 25px;
+    }
+    .titre4{
+        font-size: 45px;
+    }
+    .p4{
+        font-size: 25px;
+        margin-left: 15%;
+    }
+    .bose4{
+        width: 70%;
+        margin-right: 0%;
+    }
+    .titre5{
+        font-size: 45px;
+    }
+    .paragraphe5{
+        font-size: 25px;
+    }
+    .adresse, .mail, .telephone{
+        height: 170px;
+        width: 170px;
+    }
+    .titre6{
+        margin-bottom: 0%;
+    }
+
+}
+
+@media screen and (max-width:1024px)
+{ 
+    h1{
+        font-size: 60px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .p1{
+        font-size: 20px;
+        width: 60%;
+    }
+    .bose1{
+        width: 70%;
+    }
+    .p2{
+        font-size: 20px;
+        margin-left: 10%;
+        width: 150%;
+    }
+    .bose2{
+        margin-left: 20%;
+        width: 60%;
+    }
+    .titre3{
+        font-size: 35px;
+    }
+    .bose3{
+        width: 120%;
+    }
+    .p3-2{
+        font-size: 20px;
+    }
+    .titre4{
+        font-size: 35px;
+    }
+    .p4{
+        font-size: 20px;
+        margin-left: 15%;
+        width: 110%;
+    }
+    .bose4{
+        width: 60%;
+        margin-right: 0%;
+    }
+    .titre5{
+        font-size: 35px;
+    }
+    .paragraphe5{
+        font-size: 20px;
+    }
+    .adresse, .mail, .telephone{
+        height: 150px;
+        width: 150px;
+    }
+    .titre6{
+        margin-bottom: 0%;
+    }
+
+}
+
+@media screen and (max-width:900px)
+{ 
+    .p1{
+        font-size: 20px;
+        width: 70%;
+    }
+    .p2{
+        font-size: 20px;
+        margin-left: 10%;
+        width: 200%;
+    }
+    .bose2{
+        margin-left: 10%;
+        width: 70%;
+    }
+    .bose3{
+        width: 120%;
+    }
+    .p3-1-1{
+        width: 20%;
+    }
+    .p3-1-2{
+        width: 60%;
+    }
+    .p3-2{
+        font-size: 20px;
+        width: 60%;
+    }
+    .p4{
+        font-size: 20px;
+        margin-left: 10%;
+        width: 200%;
+    }
+    .bose4{
+        width: 70%;
+        margin-right: 0%;
+    }
+    .titre6{
+        margin-bottom: 2%;
+    }
+
+}
+
+@media screen and (max-width:800px)
+{ 
+    h1{
+        font-size: 65px;
+    }
+    .menu{
+        font-size: 17px;
+    }
+    .p1{
+        font-size: 17px;
+        width: 80%;
+        margin-left: 0%;
+        margin-right: 5%;
+    }
+    .p2{
+        font-size: 17px;
+        margin-left: 10%;
+        width: 230%;
+    }
+    .bose2{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .titre3{
+        font-size: 25px;
+    }
+    .bose3{
+        width: 110%;
+        margin-left: 45%;
+    }
+    .p3-1{
+        width: 40%;
+    }
+    .p3-1-1{
+        width: 30%;
+    }
+    .p3-1-2{
+        width: 70%;
+    }
+    .p3-2{
+        font-size: 17px;
+        width: 70%;
+    }
+    .titre4{
+        font-size: 25px;
+    }
+    .p4{
+        font-size: 17px;
+        margin-left: 10%;
+        width: 200%;
+    }
+    .bose4{
+        width: 70%;
+        margin-right: 0%;
+    }
+    .titre5{
+        font-size: 25px;
+    }
+    .paragraphe5{
+        font-size: 17px;
+    }
+    .adresse, .mail, .telephone{
+        height: 120px;
+        width: 120px;
+    }
+    .titre6{
+        margin-bottom: 2%;
+    }
+
+}
+
+@media screen and (max-width:800px)
+{
+    .p1{
+        width: 100%;
+    }
+    .p2{
+        width: 270%;
+    }
+}
+
+@media screen and (max-width:650px)
+{
+    h1{
+        font-size: 40px;
+    }
+    .menu{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .p1{
+        width: 120%;
+        font-size: 15px;
+    }
+
+    .p2{
+        width: 400%;
+        font-size: 15px;
+    }
+    .p3-2{
+        font-size: 15px;
+    }
+    .p4{
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 525px)
+{
+    h1{
+        font-size: 30px;
+    }
+    .menu{
+        font-size: 12px;
+    }
+    .accueil, .acheter, .plus, .assistance{
+        padding: 5px 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .p1{
+        width: 150%;
+        font-size: 10px;
+    }
+    .bose1{
+        margin-top: 5%;
+    }
+    .p2{
+        width: 400%;
+        font-size: 10px;
+    }
+    .titre3{
+        font-size: 20px;
+        margin-top: 0%;
+    }
+    .p3-2{
+        font-size: 10px;
+    }
+    .bose3{
+        margin-left: 20%;
+        width: 90%;
+    }
+    .titre4{
+        font-size: 20px;
+        margin-top: 0%;
+    }
+    .p4{
+        font-size: 10px;
+        margin-top: 0%;
+    }
+    .titre5{
+        font-size: 20px;
+        margin-top: 2%;
+    }
+    .paragraphe5{
+        font-size: 10px;
+    }
+    .adresse, .mail, .telephone{
+        height: 90px;
+        width: 90px;
+    }
+    .titre6{
+        font-size: 15px;
+    }
+    .facebook, .instagram, .twitter, .youtube{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:440px)
+{
+    .accueil, .acheter, .plus, .assistance{
+        padding: 5px 15px;
+    }
+    .bose1{
+        margin-top: 0%;
+    }
+    .p1{
+        margin-top: 0%;
+        width: 170%;
+    }
+    .p2{
+        width: 500%;
+    }
+    .titre3{
+        font-size: 15px;
+    }
+    .p3-2{
+        width: 70%;
+    }
+    .titre4{
+        font-size: 15px;
+    }
+    .p4{
+        width: 300%;
+    }
+    .titre5{
+        font-size: 15px;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:408px)
+{
+    .accueil, .acheter, .plus, .assistance{
+        padding: 5px 10px;
+    }
+    .p1{
+        margin-top: 0%;
+        width: 200%;
+    }
+    .p2{
+        width: 700%;
+        margin-left: 2%;
+    }
+    ul{
+        margin: 0%;
+        margin-top: 0%;
+    }
+    .p3{
+        margin-bottom: 2%;
+    }
+    .p4{
+        width: 400%;
+        margin-bottom: 5%;
+    }
+    .paragraphe5{
+        font-size: 10px;
+    }
+    .adresse, .mail, .telephone{
+        height: 80px;
+        width: 80px;
+    }
+
+
+}
+
+@media screen and (max-width:360px)
+{
+    h1{
+        font-size: 30px;
+    }
+    .menu{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    .p1{
+        margin-top: 0%;
+        width: 300%;
+        font-size: 9px;
+    }
+    .p2{
+        width: 700%;
+        margin-left: 5%;
+        font-size: 9px;
+        margin-right: 0%;
+    }
+    .titre3{
+        font-size: 12px;
+    }
+    .p3{
+        margin-bottom: 2%;
+        font-size: 9px;
+        margin-right: 5%;
+    }
+    .titre4{
+        font-size: 12px;
+    }
+    .p4{
+        width: 400%;
+        margin-bottom: 5%;
+        font-size: 9px;
+    }
+    .titre5{
+        font-size: 12px;
+    }
+    .paragraphe5{
+        font-size: 9px;
+    }
+    .adresse, .mail, .telephone{
+        height: 60px;
+        width: 60px;
+    }
+    .titre6{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-device-width:295PX)
+{ 
+    h1{
+        font-size: 25px;
+    }
+    .accueil, .acheter, .plus, .assistance{
+        padding: 5px 5px;
+    }
+    .p1{
+        margin-top: 0%;
+        width: 400%;
+    }
+    .p2{
+        width: 800%;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .p3-1-1{
+        width: 60%;
+    }
+    .p3-1-2{
+        width: 100%;
+    }
+    .p3-2{
+        width: 90%;
+    }
+    .p4{
+        width: 600%;
+        margin-bottom: 5%;
+    }
+}
